@@ -1,0 +1,25 @@
+Css box-sizing
+#mình nói như vầy dễ hiểu bạn muốn điều chỉnh khoảng cách content  trong box thay vì điều chỉnh padding 
+#rồi chỉnh lại kích thước quy định lại mắc công tính toán blah blah thì bạn có thể sử dụng box-sizing
+#border:2px solid red;
+#box-sizing
+#border-box là tổng kích thước của khai báo trừ border+padding= content
+#Border unet bỏ kích thước ở của border-sizing
+#ex:
+.box{
+Width:100px;
+Height:100px;
+Color:red
+Background-color:red;
+Padding:16px;
+ }
+#rút gọn hơn
+ .box{
+    Width:100px;
+    Height:100px;
+    Color:red
+    Background-color:red;
+    Border:2px solid red;
+    Border-sizing: border-box;
+    }
+    
